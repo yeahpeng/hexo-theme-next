@@ -1,8 +1,8 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -33,11 +33,11 @@ highlight_theme: normal
 
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
@@ -55,11 +55,6 @@ scroll_to_more: true
 
 # Automatically add list number to toc.
 toc_list_number: true
-
-# Automatically Excerpt
-auto_excerpt:
-  enable: false
-  length: 150
 
 # Use Lato font
 # Note: this option is avialable only when the language is not `zh-Hans`
@@ -90,3 +85,32 @@ images: images
 
 # Theme version
 version: 0.4.5.1
+
+#baidu
+baidu_analytics: de96a846947a761a1dc36ab70eeb06d7
+
+#Duoshuo
+duoshuo_shortname: yeahpeng
+
+# Specify the date when the site was setup
+since: 2015
+
+#头像
+avatar: /images/avatar.jpg
+
+#swiftype
+swiftype_key: iaeCy3bC1pmHqX-Ju3UQ
+
+#摘要
+auto_excerpt:
+  enable: true
+  length: 200
+
+social:
+  github: https://github.com/yeahpeng
+#  zhihu: http://www.zhihu.com/people/peng-yeah-41
+#  weibo: http://weibo.com/yeahpen
+
+#links_title: Links
+
+#links:
